@@ -1,0 +1,47 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: whitesmoke;
+    background-color: black;
+    font-weight: bold;
+    font-family: lato;
+    box-shadow: 0px 7px 73px 5px rgba(0,0,0,0.77);
+}
+p{
+    padding: 10px;
+}
+p:hover {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.imagen{
+    height:auto;
+    width:75px;
+}
+.button{
+    border:none;
+    background-color: pink;
+    padding: 8px;
+    margin:2px;
+    font-family: lato;
+    font-weight: bold;
+    border-radius: 7px;
+}
+.button:hover{
+    background-color: rgb(145, 12, 34);
+    color:whitesmoke;
+    cursor: pointer;
+}
+.input{
+    height: 25px;
+    padding:2px 5px 2px 5px;
+    border-radius: 5px;
+}
+.input::placeholder{
+    text-align: center;
+    font-family: lato;
+}
