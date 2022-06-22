@@ -1,0 +1,11 @@
+.cart{
+font-size: 30px;
+display: flex;
+padding:7px;
+}
+.cart:hover{
+    color: black;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+}

@@ -9,10 +9,11 @@
     font-family: lato;
     box-shadow: 0px 7px 73px 5px rgba(0,0,0,0.77);
 }
-p{
+.p{
+    margin-top: 10px;
     padding: 10px;
 }
-p:hover {
+.p:hover {
     background-color: white;
     color: black;
     border-radius: 5px;
@@ -20,7 +21,7 @@ p:hover {
 }
 .imagen{
     height:auto;
-    width:75px;
+    width:70px;
 }
 .button{
     border:none;
@@ -37,7 +38,7 @@ p:hover {
     cursor: pointer;
 }
 .input{
-    height: 25px;
+    height: 42px;
     padding:2px 5px 2px 5px;
     border-radius: 5px;
 }
