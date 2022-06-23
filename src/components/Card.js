@@ -1,4 +1,5 @@
 import './Card.css'
+import Counter from './Counter';
 
 function Card({product, price,description, image}){
     return(
@@ -7,7 +8,8 @@ function Card({product, price,description, image}){
             <h4>{product}</h4>
             <p>{description}</p>
             <p>{price}</p>
-            <button className="btn">Agregar al carrito</button>
+            <button className="boton">Agregar al carrito</button>
+            <Counter/>
         </div>
     )
 }
