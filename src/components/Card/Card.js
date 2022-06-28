@@ -3,7 +3,7 @@ import Counter from '../Contador/Counter';
 
 function Card({product, price,description, image,stock}){
     return(
-        <div className="card">
+        <div className="animate__animated animate__pulse card">
             <img className="img" src={image}/>
             <h4>{product}</h4>
             <p>{description}</p>
