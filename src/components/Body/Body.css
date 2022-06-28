@@ -1,5 +1,5 @@
 
-.cuerpo{
+.catalogo{
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -7,7 +7,11 @@
     justify-content: space-around;
 }
 h1{
-    text-align: center;
+    text-align:center;
     font-family: lato;
     padding: 20px;
+}
+h2{
+    text-align:center;
+    font-family:lato;
 }

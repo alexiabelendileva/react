@@ -1,6 +1,6 @@
 import './NavBar.css';
 import logo from './logo.png';
-import Cart from './Cart';
+import Cart from '../Cart/Cart';
 
 
 function NavBar(){

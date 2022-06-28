@@ -4,7 +4,7 @@ import './Cart.css'
 
 class Cart extends Component {
     render() {
-      return <div className="cart"><FaCartArrowDown /> </div>
+      return <div alt="Carrito" className="cart"><FaCartArrowDown /> </div>
     }
 }
 
