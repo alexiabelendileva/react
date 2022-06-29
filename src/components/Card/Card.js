@@ -9,7 +9,7 @@ function Card({product, price,description, image,stock}){
             <p>{description}</p>
             <p>${price}</p>
             <p>Stock: {stock}</p>
-            <Counter />
+            <Counter stock={stock}/>
             <button className="boton">Agregar al carrito</button>
           
         </div>
