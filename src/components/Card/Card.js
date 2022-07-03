@@ -10,6 +10,7 @@ function Card({product, price,description, image,stock}){
             <p>${price}</p>
             <p>Stock: {stock}</p>
             <Counter stock={stock}/>
+            <button className='boton'>Ver más</button>
             <button className="boton">Agregar al carrito</button>
           
         </div>

@@ -16,6 +16,7 @@
     transform: scale(1.05);
 }
 .boton{
+    margin: 5px;
     height: 40px;
     font-family: lato;
     border: 1px solid transparent;

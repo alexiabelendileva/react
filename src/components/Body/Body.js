@@ -27,7 +27,7 @@ function Body(){
                 <h2>¡Elegí entre los productos de mejor calidad!</h2>
             </div>            
             <div className='catalogo'>
-                {info && info.map(i => <Card image={i.img} product={i.nombre} description={i.description} price={i.price} stock={i.stock}/>)}
+                {info && info.map(i => <Card image={i.img} product={i.nombre}  price={i.price} stock={i.stock}/>)}
             </div>
         </div>
     );

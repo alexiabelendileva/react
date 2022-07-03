@@ -1,0 +1,120 @@
+.cont2column{
+    margin: 50px 5px;
+    display: grid;
+    grid-template-columns: 1fr 2fr; /*o poner grid 2fr<-columna de img | columna de info -> 1fr*/
+}
+.small,.medium,.large{
+    display: flex;
+    color: rgb(73, 73, 73);
+    border: 1px solid rgb(61, 60, 60);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 3px;
+    font-size: 20px;
+}
+.small:hover,.medium:hover,.large:hover{
+    color:black;
+    border:1px solid blueviolet;
+    border-radius: 5px;
+    transform: scale(1.2);
+    cursor:pointer;
+}
+.imagenprinc{
+    width: 450px;
+    margin: 60px 200px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.imagenprinc:hover{
+    border: 2px double rgb(196, 73, 94);
+    transform: scale(1.1);
+}
+.talles{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    transform: scale(1.1);
+}
+.talle h3{
+    font-family: lato;
+    text-align: left;
+}
+.disponible{
+    font-family: lato;
+    font-size: 25px;
+}
+.desc{
+    text-align: center;
+    font-size: 25px;
+    font-family: lato;
+}
+.prec{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.title{
+    font-family: lato;
+    font-weight: bold;
+}
+.medios{
+    text-align: left;
+    padding: 15px;
+    margin: 40px 0px;
+}
+.medios a{
+    font-family: lato;
+    border:1px solid transparent;
+    padding:15px;
+    font-size: 20px;
+    text-decoration: none;
+    color: blueviolet;
+}
+.medios a:hover{
+    color:black;
+    background-color: pink;
+    border-radius: 10px;
+    border:1px solid black;
+}
+.color{
+    font-family: lato;
+    margin:15px 0px;
+    font-size: 25px;
+}
+.cont{
+    font-size: 20px;
+}
+.column-right{
+    background-color: rgba(128, 128, 128, 0.108);
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5px;
+    padding:15px;
+}
+.column-left{
+    background-color: rgba(128, 128, 128, 0.042);
+    border: 0.5px solid black;
+    border-radius: 10px;
+    margin: 5px;
+    padding:15px;
+}
+.compra,.agregar{
+    font-weight: bold;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    border:1px solid black;
+    border-radius: 5px;
+    background-color: pink;
+}
+.botones{
+    display: flex;
+    flex-direction: column;
+}
+.compra:hover,.agregar:hover{
+    font-weight: normal;
+    background-color: black;
+    color:pink;
+    transform: scale(1.05);
+}

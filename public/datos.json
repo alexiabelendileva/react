@@ -6,7 +6,8 @@
     "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/814/563/products/buzo-sasuke-eyes-naruto1-9c59339d6f40d47ae616487433759311-640-0.jpg",
     "nombre": "Buzo Sasuke",
     "price": 3485,
-    "stock": 10
+    "stock": 10,
+    "color":"Blanco/Negro"
   },
 
   {
@@ -16,7 +17,8 @@
     "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/814/563/products/eva-ok1-b7e54d56db397d2ccf16517754271629-640-0.jpg",
     "nombre": "Buzo Evangelion",
     "price": 3749,
-    "stock": 5
+    "stock": 5,
+    "color":"Negro"
   },
 
   {
@@ -26,6 +28,7 @@
     "img": "https://http2.mlstatic.com/D_NQ_NP_800944-MLA47182203147_082021-O.webp",
     "nombre": "Remera Hanamichi",
     "price": 1960,
-    "stock": 6
+    "stock": 6,
+    "color":"Negro"
   }
 ]
