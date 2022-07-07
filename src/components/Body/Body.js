@@ -1,25 +1,26 @@
 import './Body.css';
 import Card from '../Card/Card';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useParams } from 'react';
 
 
-function Body(){
+export const Body = ({greeting}) => {
 
     const[info, setInfo] = useState([])
-    
+    const {idcategoria} = useParams();
+    console.log(idcategoria)
     useEffect(()=>{
         setTimeout(
             () => {
-            fetch('datos.json',{
+            fetch('../datos.json',{
                 headers:{
                 'Content-Type':'application/json',
                 'Accept':'application/json'
                 }
             })    
             .then((resp) => resp.json())
-            .then((data) => setInfo(data))
-        },2000)    
-    }, [])
+            .then((data) => setInfo(idcategoria ? data.filter((item) => item.categoria === idcategoria) : data))
+        },1000)   
+    }, [idcategoria])
  ;    
     return(
         <div className="cuerpo">
@@ -28,7 +29,7 @@ function Body(){
                 <h2>¡Elegí entre los productos de mejor calidad!</h2>
             </div>            
             <div className='catalogo'>
-                {info && info.map(i => <Card image={i.img} product={i.nombre}  price={i.price} stock={i.stock}id={i.id}/> )}
+                {info && info.map(i => <Card image={i.img} product={i.nombre}  price={i.price} stock={i.stock}id={i.id} categoria={i.categoria}/> )}
             </div>
         </div>
     );

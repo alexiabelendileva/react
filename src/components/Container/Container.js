@@ -2,6 +2,7 @@ import './Container.css'
 import ItemDetail from '../ItemDetail/ItemDetail'
 import { useState,useEffect } from 'react'
 import { useParams } from 'react-router-dom'
+
 function Container(){
     const[detail, setDetail] = useState([])
     const {id} = useParams()

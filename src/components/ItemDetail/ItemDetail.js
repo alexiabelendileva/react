@@ -1,10 +1,11 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import Counter from '../Contador/Counter';
 import './ItemDetail.css';
 
-function ItemDetail({producto, precio,descripcion, imagen,stockd,color}){
-
+function ItemDetail(){
+    let location = useLocation();
+    let {producto, precio,descripcion, imagen,stockd,color} = location.state;
     return(
         <div className='cont2column'>
             <div className='column-left'><img className="imagenprinc" src={imagen}/>
