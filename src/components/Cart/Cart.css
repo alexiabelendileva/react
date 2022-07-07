@@ -1,7 +1,9 @@
 .cart{
-font-size: 30px;
+font-size:40px;
 display: flex;
 padding:7px;
+color: white;
+text-decoration: none;
 }
 .cart:hover{
     color: black;

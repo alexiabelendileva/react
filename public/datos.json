@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "category": "buzo",
+    "categoria": "buzo",
     "description": "Buzo canguro hoodie frizado blanco y negro oversized",
     "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/814/563/products/buzo-sasuke-eyes-naruto1-9c59339d6f40d47ae616487433759311-640-0.jpg",
     "nombre": "Buzo Sasuke",
@@ -12,7 +12,7 @@
 
   {
     "id": 2,
-    "category": "remera",
+    "categoria": "remera",
     "description": "Buzo canguro hoodie frizado negro con estampa",
     "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/814/563/products/eva-ok1-b7e54d56db397d2ccf16517754271629-640-0.jpg",
     "nombre": "Buzo Evangelion",
@@ -23,7 +23,7 @@
 
   {
     "id": 3,
-    "category": "buzo",
+    "categoria": "buzo",
     "description": "Remera algodón 100% color negro, estampa en b&n",
     "img": "https://http2.mlstatic.com/D_NQ_NP_800944-MLA47182203147_082021-O.webp",
     "nombre": "Remera Hanamichi",

@@ -25,6 +25,14 @@
     font-weight: bold;
     color: black;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}
 .boton:hover{
     background: linear-gradient(#873a6f, #585c8b);
     color: whitesmoke;

@@ -1,7 +1,7 @@
 .cont2column{
     margin: 50px 5px;
     display: grid;
-    grid-template-columns: 1fr 2fr; /*o poner grid 2fr<-columna de img | columna de info -> 1fr*/
+    grid-template-columns: 2fr 2fr; 
 }
 .small,.medium,.large{
     display: flex;
@@ -28,7 +28,7 @@
 }
 .imagenprinc:hover{
     border: 2px double rgb(196, 73, 94);
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 .talles{
     display:flex;
