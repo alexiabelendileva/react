@@ -3,25 +3,24 @@ import Card from '../Card/Card';
 import { useEffect, useState, useParams } from 'react';
 
 
-export const Body = ({greeting}) => {
+function Body(){
 
     const[info, setInfo] = useState([])
-    const {idcategoria} = useParams();
-    console.log(idcategoria)
+
     useEffect(()=>{
         setTimeout(
             () => {
-            fetch('../datos.json',{
+            fetch('datos.json',{
                 headers:{
                 'Content-Type':'application/json',
                 'Accept':'application/json'
                 }
             })    
             .then((resp) => resp.json())
-            .then((data) => setInfo(idcategoria ? data.filter((item) => item.categoria === idcategoria) : data))
-        },1000)   
-    }, [idcategoria])
- ;    
+            .then((data) => setInfo(data))
+        },2000)    
+    }, [])
+    ;
     return(
         <div className="cuerpo">
             <div>

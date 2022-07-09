@@ -4,6 +4,7 @@ import Cart from '../Cart/Cart';
 import {Link} from 'react-router-dom'
 
 
+
 function NavBar(){
     return(
         <header className="navbar">

@@ -1,7 +1,19 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import withReactContent from 'sweetalert2-react-content';
+import Swal from 'sweetalert2';
 import Counter from '../Contador/Counter';
 import './ItemDetail.css';
+
+function carritoAnuncio() {
+    const MySwal = withReactContent(Swal)
+    MySwal.fire({
+        title: '¡Producto agregado!',
+        icon:'success',
+        timer:2000
+    })
+;
+}
 
 function ItemDetail(){
     let location = useLocation();
@@ -28,7 +40,7 @@ function ItemDetail(){
                 <Counter stock={stockd}/>
                 <div className='botones'>
                 <button className='compra'>Comprar Ahora</button>
-                <button className='agregar'>Agregar al carrito</button>
+                <button className='agregar' onClick={carritoAnuncio}>Agregar al carrito</button>
                 </div>
             </div>
 
